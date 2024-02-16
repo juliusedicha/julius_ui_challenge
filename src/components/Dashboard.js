@@ -65,36 +65,34 @@ function Home() {
               </p>
             </div>
             <div className="border">
-              <p>
-                <a
-                  href=""
-                  className={`link ${activeIndex === 0 ? "active" : ""}`}
-                  onClick={() => handleClick(0)}
-                >
-                  <span>ROUND TRIP</span>
-                </a>
-              </p>
-              <p>
-                <a
-                  href=""
-                  className={`link ${activeIndex === 1 ? "active" : ""}`}
-                  onClick={() => handleClick(1)}
-                >
-                  <span>ROUND TRIP</span>
-                </a>
-              </p>
-              <p>
-                <a
-                  href=""
-                  className={`link ${activeIndex === 2 ? "active" : ""}`}
-                  onClick={() => handleClick(2)}
-                >
-                  <span>ROUND TRIP</span>
-                </a>
-              </p>
-            </div>
+  <p>
+    <a
+      className={`link ${activeIndex === 0 ? "active" : ""}`}
+      onClick={() => handleClick(0)}
+    >
+      <span>ROUND TRIP</span>
+    </a>
+  </p>
+  <p>
+    <a
+      className={`link ${activeIndex === 1 ? "active" : ""}`}
+      onClick={() => handleClick(1)}
+    >
+      <span>ROUND TRIP</span>
+    </a>
+  </p>
+  <p>
+    <a
+      className={`link ${activeIndex === 2 ? "active" : ""}`}
+      onClick={() => handleClick(2)}
+    >
+      <span>ROUND TRIP</span>
+    </a>
+  </p>
+</div>
 
-            <div className="border">
+
+              <div className="border">  
               <p>
                 <FaArrowRightArrowLeft />
                 Multi city
